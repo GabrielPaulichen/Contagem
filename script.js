@@ -1,6 +1,6 @@
 // FORMATO: "Ano-Mês-DiaTHora:Minuto:Segundo"
 // Exemplo: 25 de Dezembro de 2026 às 14:30 -> "2026-12-25T14:30:00"
-const dataDoReencontro = new Date("2026-12-25T14:00:00").getTime();
+const dataDoReencontro = new Date("2026-07-27T19:30:00").getTime();
 
 const atualizaContador = setInterval(function() {
     const agora = new Date().getTime();
